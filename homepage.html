@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive Video Player</title>
+</head>
+
+<body>
+
+    <div>
+        <a href="delta.html"><button>DELTA</button></a>
+        <button onclick="embedVideo('1YMcaza95MUnRKcuWE9TW_73kTZO4fwLr')">Embed Video 1</button>
+        <button onclick="embedVideo('13Vcz2F6Kyu2j41f28_X7_rjNcI5GR3s8')">Embed Video 2</button>
+    </div>
+
+    <div id="videoContainer">
+    </div>
+
+    <script>
+        function embedVideo(videoId) {
+            var videoContainer = document.getElementById('videoContainer');
+            var embedUrl = 'https://drive.google.com/file/d/' + videoId + '/preview';
+            videoContainer.innerHTML = '<iframe src="' + embedUrl + '" width="640" height="480" frameborder="0" allowfullscreen></iframe>';
+        }
+    </script>
+
+</body>
+
+</html>
