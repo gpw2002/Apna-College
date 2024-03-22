@@ -1,3319 +1,456 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Delta</title>
-
+    <title>Apna College</title>
     <link rel="icon"
         href="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/0f275b1c30123c908cc8491a86d9146a.png">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="/APNA COLLEGE/font/stylesheet.css" rel="stylesheet">
+    <link href="./font/stylesheet.css" rel="stylesheet">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="style_sidebar.css">
-
-    <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
-        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
-        crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
-        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
-        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="wrapper">
-        <!-- Sidebar  -->
-        <nav id="sidebar">
-            <div class="sidebar-header">
+    <div class=" nbar sticky-top">
+
+        <nav class="navbar sticky-top navbar-expand-lg">
+            <div class="container-fluid mt-3">
                 <div>
-                    <a class="navbar-brand" href="index.html"><img src="./assets/Logo.png" style="width: 8rem;"
-                            class="logo" alt=""></a>
+                    <a class="navbar-brand" href="index.html"><img src="./assets/Logo.png" class="logo" alt=""></a>
                 </div>
-            </div>
 
-            <ul class="list-styled components">
-                <h3>DELTA BATCH</h3>
 
-                <li>
-                    <a href="#menu1" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle">Introduction</a>
-                    <ul class="collapse list-unstyled" id="menu1">
-                        <li>
-                            <a href="#" onclick="embedVideo('1JBo132HBmSzNH3wp8V86jFeCNsip6A01')"><i
-                                    class="fa-regular fa-file-pdf"></i> Curriculum</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1YMcaza95MUnRKcuWE9TW_73kTZO4fwLr')"><i
-                                    class="fa-regular fa-circle-play"></i> Welcome to Delta!</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('13Vcz2F6Kyu2j41f28_X7_rjNcI5GR3s8')"><i
-                                    class="fa-regular fa-circle-play"></i> What is the
-                                Internet?</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1SiHpVzL0j8CWqscc1_P3IRD8VeE39M9-')"><i
-                                    class="fa-regular fa-circle-play"></i> What is Web
-                                Development?</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('12WSJeXU57u1fQEBSApBr_PovxJTfoHMU')"><i
-                                    class="fa-regular fa-circle-play"></i> What will we
-                                learn?</a>
-                        </li>
-                    </ul>
-                </li>
 
-                <li>
-                    <a href="#menu2" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle">Prerequisites</a>
-                    <ul class="collapse list-unstyled" id="menu2">
-                        <li>
-                            <a href="#" onclick="embedVideo('1dlgq0HIvj1f-9tccQ0fBhvYGm1C8M-WD')"><i
-                                    class="fa-regular fa-circle-play"></i> Prerequisites</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1peircqCIS8BU6CMuBQDcNEiNdTq_VQUr')"><i
-                                    class="fa-regular fa-file-pdf"></i> Installation Guide</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="#menu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">HTML (Level 1)
-                        - Part A</a>
-                    <ul class="collapse list-unstyled" id="menu3">
-                        <li>
-                            <a href="#" onclick="embedVideo('1uNQGxvYdJlD7JZo6xrSTBreGRuxZpNDd')"><i
-                                    class="fa-regular fa-circle-play"></i> Introduction to
-                                HTML</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1yIusOOyrbApEC0B3YjPM0QZsqM75afhG')"><i
-                                    class="fa-regular fa-circle-play"></i> HTML Elements &
-                                Tags</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1atZrJVWn3_4GtSUnXKlX4gOQzzPBYeMH')"><i
-                                    class="fa-regular fa-circle-play"></i> Hello World</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('14mzK_WiCkz9xNhj24KcY2LDws4GztLPM')"><i
-                                    class="fa-regular fa-circle-play"></i> Paragraph Element</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1Wh8papj7ug9uhI99i1xg6kHBGklDQa_I')"><i
-                                    class="fa-regular fa-circle-play"></i> Heading Elements</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1tmlC83ZcumvfGw8r6GPbCeQwqKQ_HRte')"><i
-                                    class="fa-regular fa-circle-play"></i> Practice Qs</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('11cJ_XZv2kgCnBgA8_MNBwg8RqNAruUKE')"><i
-                                    class="fa-regular fa-circle-play"></i> Boilerplate Code</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1SyrsyYY08YvYIlIRRrj8ViyhpMmk0J5_')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1eigRLtnc34vrtTO56_XDRKOSVG9GdTDU')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-
-
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="#menu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">HTML (Level 1)
-                        - Part B</a>
-                    <ul class="collapse list-unstyled" id="menu4">
-                        <li>
-                            <a href="#" onclick="embedVideo('1izf5xsi5kFOiR51FnmPka0J5nRdr6HZC')"><i
-                                    class="fa-regular fa-circle-play"></i> Lists in HTML</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1IAv8q_E7HcqyyHqEgYrsqA-tnND20g51')"><i
-                                    class="fa-regular fa-circle-play"></i> Attributes in HTML</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1JflNBbTFsdvepfe4A7FWOUESrGqOmTWo')"><i
-                                    class="fa-regular fa-circle-play"></i> Anchor Element</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1Ru6YBOCcWs4_izr_uoq2c-GAItWGkniG')">
-                                <i class="fa-regular fa-circle-play"></i> Image Element
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1txqHWD-w03S9fyg-8h9WrWyw85AgEsiO')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1a80D5knJI1fkxZMu7Og31XmPrdU5UrxD')">
-                                <i class="fa-regular fa-circle-play"></i> More HTML Tags
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1TnBPJntkF3n09JAP2uOmKRyadwdpqG4z')"><i
-                                    class="fa-regular fa-circle-play"></i> Comments in HTML</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1zRweP79mR90NKEaOL7E-r_eQE9SfWDF0')"><i
-                                    class="fa-regular fa-circle-play"></i> Is HTML Case Sensitive</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1yp9sUgy0OFu0WTTAtexM-63nz33a1Elf')"><i
-                                    class="fa-regular fa-circle-play"></i> Practice Qs</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('16tMczTr_X1Ad7VPWDjQ59K1HThJX8kuz')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1pTblDpmljKmJSWS1AqSMSENaHk_y9pfd')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-
-                <li>
-                    <a href="#menu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">HTML (Level
-                        2)</a>
-                    <ul class="collapse list-unstyled" id="menu5">
-                        <li>
-                            <a href="#" onclick="embedVideo('1jNQl08kPdTnuyARbU0yHc_B-beooFYLD')">
-                                <i class="fa-regular fa-circle-play"></i> Inline vs Block
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('17C1VZpKvWQwED0XOtADnrd__8T87xaJz')">
-                                <i class="fa-regular fa-circle-play"></i> Div Element
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1IR3hD5R3zqALH57kSs6MaUY86XiUnkIx')">
-                                <i class="fa-regular fa-circle-play"></i> Span Element
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1zg6rS6boPLpbylAIvnZ4JMfmrdeZF3iJ')">
-                                <i class="fa-regular fa-circle-play"></i> Hr Tag
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1rCtWgZR3huBUXmXnEEFuOZK9z_PEZf8W')">
-                                <i class="fa-regular fa-circle-play"></i> Sup & Sub Tags
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1HQeTbRT3SKBETEIoMstDWBXL-wJaWy6t')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1jKB7Uuo0WreZ6nSyUYgT9G_2uVA5x1LU')">
-                                <i class="fa-regular fa-circle-play"></i> Semantic Markup
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1G0samOVAiR0UsDpaWRl68CWIBfmgCAlV')">
-                                <i class="fa-regular fa-circle-play"></i> Semantic Tags
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Ax_k3scdIguLgN4vRwaPFn9VCTbc54Lz')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1YJB3dC28n_E_qxk5FxSSBJfqYdwAx2y2')">
-                                <i class="fa-regular fa-circle-play"></i> HTML Entitites
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('10vQh6ZcI4RGBh67i1lJeN8yiJqcxThKb')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('12500WPy1TYPhJEMCzRIsxJZGKQwzhxVJ')">
-                                <i class="fa-regular fa-circle-play"></i> Emmets
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1423tMdk1JET2ZTsSTHctbeRvDRR1YfrL')">
-                                <i class="fa-regular fa-circle-play"></i> Further Understanding HTML
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1vJrAYLlcuLN-NkPHYCyRyr8jZu5wTxmn')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1fSoPLX_JRk1jky-yGGGOJ1xbrvXqo77B')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="#menu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">HTML (Level
-                        3)</a>
-                    <ul class="collapse list-unstyled" id="menu6">
-                        <li>
-                            <a href="#" onclick="embedVideo('1Hqaglytmz2OoxpbBRS6Y5Gm2N5vc6dS7')">
-                                <i class="fa-regular fa-circle-play"></i> Tables in HTML
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1AlBuEAt5N7lV-yim_P_3k5uMOHrlIm34')">
-                                <i class="fa-regular fa-circle-play"></i> Semantics in Tables
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('11415izg9rOcmCzLKjnbBURJpqlGygOin')">
-                                <i class="fa-regular fa-circle-play"></i> Colspan & Rowspan Attributes
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1_gQNHBiU2SMZCCJDLnb9hoILfEaKHNEh')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1dZ9oFCiqGaihGkdI3dLt9f5ejh5HRsOu')">
-                                <i class="fa-regular fa-circle-play"></i> Forms in HTML
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('13HQz9l-i8Tu7CApb1yfj7jRTMYOzI4jv')">
-                                <i class="fa-regular fa-circle-play"></i> Input - Form Element
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1YJyQb89rUEtQtPQfx3Ue05Efd4lVQuB3')">
-                                <i class="fa-regular fa-circle-play"></i> Placeholders & Labels
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1K0wakk4L4YlCCchtS8BW9WDCq1NWRoEX')">
-                                <i class="fa-regular fa-circle-play"></i> Button Element
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1-5A2FJOOBK6wa0RVzeRKTVjXhod2ZWx5')">
-                                <i class="fa-regular fa-circle-play"></i> Name Attribute
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('112jsJ5OZV65MkiaCOuzReWgSFxW7ciN_')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1_uTRQsrs6FEV5uf0xin_BKghlGcqFuQg')">
-                                <i class="fa-regular fa-circle-play"></i> Checkbox - Input Element
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1rXjcxDGURwv1zU9Eh8DqegDZsQf_hi3w')">
-                                <i class="fa-regular fa-circle-play"></i> Radio - Input Element
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1nZHo2Be3daTxg6C9oa2Mh6dMZ7dF2ywb')">
-                                <i class="fa-regular fa-circle-play"></i> Select - Input Element
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1qG_XggHfFOY2sC2vPjIJPoeJy4Z1ekpg')">
-                                <i class="fa-regular fa-circle-play"></i> Range - Input Element
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1wBiLs-YHBopq6_iORjZ8vIDaN7oxCjyj')">
-                                <i class="fa-regular fa-circle-play"></i> Text Area
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1lgiMSx43Qsw9KOqta5P1JQDkTxnKA3gg')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1azadcvbJ0cJLYFooqWMcAv0RM_dS92cW')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1yYQ0RspPe93qd9Nln1WOWUOJAZ2g-5Ql')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="#menu7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CSS - Getting
-                        Started</a>
-                    <ul class="collapse list-unstyled" id="menu7">
-                        <li>
-                            <a href="#" onclick="embedVideo('10jCCk-oMzyMmp_BZRujnKHoSjMlRyi4h')">
-                                <i class="fa-regular fa-circle-play"></i> What is CSS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1idwJCngZzH6JgIkYGAA4yt359WSVdJRk')">
-                                <i class="fa-regular fa-circle-play"></i> Basic CSS Format
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1yTZiH6dElo0EVufKWtojJCBtIRvWUpAc')">
-                                <i class="fa-regular fa-circle-play"></i> Including CSS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1vf4U-3gPVaKOiCXMyUhnUc2f8dyIEQOs')">
-                                <i class="fa-regular fa-circle-play"></i> Color Property
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1J_6pl_6tSWsaApH58IwExa5rb7dlNZBM')">
-                                <i class="fa-regular fa-circle-play"></i> Background Color Property
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('14XPeYO0aH_-nxAjw4pybfZmpLBIPSg7D')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('15i11V_24wWlv44R3z4Ega7ksey8PwcSg')">
-                                <i class="fa-regular fa-circle-play"></i> Color Systems (Name & RGB)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1cfugWfyz9p3kE5mBzS1R2xX8h3U4HeRH')">
-                                <i class="fa-regular fa-circle-play"></i> Hex Codes
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1lGlDJvpW3W6h7UqHOo_V1-g552vj7ivB')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1JHfdXtjzRrk-odn4Ie3ZMxOwZ5vQb2sg')">
-                                <i class="fa-regular fa-circle-play"></i> Text Align Property
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1H4Ao6ibdLnA2sPeTFrSvyqG4FoI37jV8')">
-                                <i class="fa-regular fa-circle-play"></i> Font Weight & Text Decoration
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1GhCIhMtdUKaTE9Mjk3FT_pznzz8Yol7z')">
-                                <i class="fa-regular fa-circle-play"></i> Line Height & Letter Spacing
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1BNYxlMxwfKMCAaeUTGliC2BqRr6PaIz9')">
-                                <i class="fa-regular fa-circle-play"></i> Units in CSS (Pixel)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1a1qwyD88WpmzcoTqHznlGK47FV1YsM4e')">
-                                <i class="fa-regular fa-circle-play"></i> Font Family
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1q6nSRp1Msi61M-FDD5Z634S1yeZnhZ03')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1azadcvbJ0cJLYFooqWMcAv0RM_dS92cW')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1yYQ0RspPe93qd9Nln1WOWUOJAZ2g-5Ql')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </li>
-
-                <!-- Menu 8 -->
-                <li>
-                    <a href="#menu8" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CSS - Part
-                        2</a>
-                    <ul class="collapse list-unstyled" id="menu8">
-                        <li>
-                            <a href="#" onclick="embedVideo('1xV-uZTSkADJQdMR7R-Hg4WLQJivR5Dw-')">
-                                <i class="fa-regular fa-file-pdf"></i> Download Starter HTML
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('14r9P0kHK0TGRHNpXSnjqbrmiFiC0sEX6')">
-                                <i class="fa-regular fa-circle-play"></i> How to download
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1nWgZ0hraRlRkC__K7zPptuCVm3V6Gt18')">
-                                <i class="fa-regular fa-circle-play"></i> Universal Selector
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1MTYaSBMyR2KeGg17c6Ck7w8EjeLF1am_')">
-                                <i class="fa-regular fa-circle-play"></i> Element Selector
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1BlvRtgZjy0u4ubITYnBocnvs4dtc2vo4')">
-                                <i class="fa-regular fa-circle-play"></i> Id Selector
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1jI5OrvP8mWy6l0x23RlR1nJu6McWvZEe')">
-                                <i class="fa-regular fa-circle-play"></i> Class Selector
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1LAmwBS3HJzod3Z0LdhKgn8FxJe5xw-H0')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Ob3lN7ukrSgrb0kTx__vRWZoZLzKfNJn')">
-                                <i class="fa-regular fa-circle-play"></i> Descendant Selector
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1mi7cmwOiC8GVVVYKzWfq-WNp3d5CFDiI')">
-                                <i class="fa-regular fa-circle-play"></i> Sibling Combinator
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1xP2rP9cNPur2Sude0J40OgV6lfPyW2Vo')">
-                                <i class="fa-regular fa-circle-play"></i> Child Combinator
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('18st6rubu5xcVK0pQlj40YfGzez3RIFTX')">
-                                <i class="fa-regular fa-circle-play"></i> Attribute Selector
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1oS5I3XGAvPjbsJuLPsij3kPaoVvwsgZL')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs_2
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1uiorfHGL86M2zyxwZp3r6cWgZxglZYh6')">
-                                <i class="fa-regular fa-circle-play"></i> Pseudo Class
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1kp0g0LYdKafAQnGJrhwJ01MGsQzMnuBa')">
-                                <i class="fa-regular fa-circle-play"></i> Pseudo Element
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Ckg-7VVQGE-hE4HkHXIL5e6B6b__Xw2E')">
-                                <i class="fa-regular fa-circle-play"></i> Cascading & Specificity
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Af3zXn1CaZJU59lMTvxYt25XOJqi9e9V')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs_3
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('14EHszCriRXTzZS76PIP2Gp97xlEvsKpJ')">
-                                <i class="fa-regular fa-circle-play"></i> !important in CSS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Mtsgly6LWP5CJ11gD6suPStmup4uwoU2')">
-                                <i class="fa-regular fa-circle-play"></i> Inheritance
-                            </a>
-                        </li>
-
-
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1vgaAvISvdfE_jOHrw-8HEOHEXrAs2opz')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1_j8O9NC2qRMt4PU66Hooi9wvQ8Kea-FH')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </li>
-
-                <!-- Menu 9 -->
-                <li>
-                    <a href="#menu9" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CSS - Part
-                        3</a>
-                    <ul class="collapse list-unstyled" id="menu9">
-                        <li>
-                            <a href="#" onclick="embedVideo('1HTr1ECkDYQk8UvpeSJjGWUnXpLSgKkKJ')">
-                                <i class="fa-regular fa-file-pdf"></i> Download Starter HTML
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="embedVideo('1zLOGvBNi05QblSWve9Rvg5Qbeec_jb2W')">
-                                <i class="fa-regular fa-circle-play"></i> Box Model
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Kg32Xgl3yKncYRxhdPr6EopkZW7IZHvq')">
-                                <i class="fa-regular fa-circle-play"></i> Height & Width
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1k_zylwyw1x2HdnO1s0hIBVnZM2Z_2pAA')">
-                                <i class="fa-regular fa-circle-play"></i> Border
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1r6UM-V193WcnhoEyFJJ97uZttCcrgnay')">
-                                <i class="fa-regular fa-circle-play"></i> Border Radius
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('17LFQDZhfRG4900ONpREZEX35vDUklp4r')">
-                                <i class="fa-regular fa-circle-play"></i> Padding Property
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Oyrm4lbArMCLcyjt7xCAfPuqA4xHNqug')">
-                                <i class="fa-regular fa-circle-play"></i> Margin Property
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('100bIxezqQVVx4lYrQzFkU6jhNdp51dVR')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1WZP17Hc4HUZSmk_wC8RvZ71wTIbw_lCW')">
-                                <i class="fa-regular fa-circle-play"></i> Display Property
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('11sdPfdZWDP3o6rljExLhdwtUEMkommkh')">
-                                <i class="fa-regular fa-circle-play"></i> Inline-Block
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1irnflbD4MFyJvIGvQrbBXxFC89Aks9Qw')">
-                                <i class="fa-regular fa-circle-play"></i> Relative Units (Percentage)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1k-S9Q1N3cvxw_PoO2RW-WJVOJNbilZkl')">
-                                <i class="fa-regular fa-circle-play"></i> Em Rem in Units
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ssALMDZd_wvgxScuJHy9DMNOgjn3B4hc')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1W2uIJmieEEjI2sMhe6ZArW2PPf79dKJz')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 10 -->
-                <li>
-                    <a href="#menu10" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CSS - Part
-                        4</a>
-                    <ul class="collapse list-unstyled" id="menu10">
-                        <li>
-                            <a href="#" onclick="embedVideo('1SHZO5WQJ2Rhhpe2zgC_dmSZ74Kgnyd7x')">
-                                <i class="fa-regular fa-circle-play"></i> Alpha & Opacity
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1xz8_c_V7_7MPLWWzG1ck3PA88mI1QwDy')">
-                                <i class="fa-regular fa-circle-play"></i> Transitions in CSS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1yY6r5uHdTtgoon7MjgAIML_YZn3fz-zN')">
-                                <i class="fa-regular fa-circle-play"></i> Transform - Rotate
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1MnfJPR_F71c6boAEGN-TPLbc_COiTNYA')">
-                                <i class="fa-regular fa-circle-play"></i> Transform - Scale
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1KuaDkJ5c8MscMr3kyQE9CqKYtygySL4V')">
-                                <i class="fa-regular fa-circle-play"></i> Transform - Translate
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Irt3RMT59Ui97aKh7hER9mhe66LBFR4C')">
-                                <i class="fa-regular fa-circle-play"></i> Transform - Skew
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1z4rq3hLlSBkOT1HBJuvuA_klxyIXV_63')">
-                                <i class="fa-regular fa-circle-play"></i> Box Shadow
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1zxDjLlcK0qlx_VV-CrQMnVSjqqIkP_pW')">
-                                <i class="fa-regular fa-circle-play"></i> Background Image
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1hGzwDFbyCwkt0SL6KAs4lfuvWMuGxSK1')">
-                                <i class="fa-regular fa-circle-play"></i> Card Hover Effect
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1rfPY4PSN40jnPoRumvnD47l7orkXR3HF')">
-                                <i class="fa-regular fa-circle-play"></i> Position Property
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1mGKNcSHTwT8-XhoX4lN5kCWpJkHGR4L2')">
-                                <i class="fa-regular fa-circle-play"></i> Simple Smiley Face
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1t8Ko5fiZ_zfN9eeuSH3oX58zLIXXAGve')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('13Hq64vFRuJCgddVbDFD1cMxpMaLA8P-s')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </li>
-
-                <!-- Menu 11 -->
-                <li>
-                    <a href="#menu11" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CSS - Part
-                        5</a>
-                    <ul class="collapse list-unstyled" id="menu11">
-                        <li>
-                            <a href="#" onclick="embedVideo('1IkXxKtdRVrcGbs8yNaiv0YbpV_YzqSr-')">
-                                <i class="fa-regular fa-circle-play"></i> What is Flexbox
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1DUyEckeCqSTizRC2d7b2Flv65BPI7eCp')">
-                                <i class="fa-regular fa-circle-play"></i> Display Flex
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1BBpF0ZApecMneZRqOT-ZBfB5IvLBiUke')">
-                                <i class="fa-regular fa-circle-play"></i> Flex Direction
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1O0RTUstl92lkJLfF9CCPvoUaYwkv_RkM')">
-                                <i class="fa-regular fa-circle-play"></i> Justify Content
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('14RtqFjxK1sYJzLyJ598Dm7iPpYD51alJ')">
-                                <i class="fa-regular fa-circle-play"></i> Flex Wrap
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1UmZt58IluZH73vPFUT-A5LjUfyopjYhR')">
-                                <i class="fa-regular fa-circle-play"></i> Align Items
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1FxKWohrXATLCnu0i01GDNEWTKwANFwdA')">
-                                <i class="fa-regular fa-circle-play"></i> Align Content
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1qEWntFtbCUwWgdcOk5YvbCP-ntk2YXSA')">
-                                <i class="fa-regular fa-circle-play"></i> Align Self
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1UhY2V0N0n5wkjI7WmdzCzxIVUkQ82F3s')">
-                                <i class="fa-regular fa-circle-play"></i> Flex Sizing
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1rutsb9DV5Ct_l9D9qtG94nQU-oR2BK9n')">
-                                <i class="fa-regular fa-circle-play"></i> Flex Shorthand
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1xbZo0L8XPwlGB9lHKOpe5Sk3Kj5FaM1o')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('14Frxqk8xsuRNvPVlgOD0Y5Pjs2EQc0bN')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </li>
-
-                <!-- Menu 12 -->
-                <li>
-                    <a href="#menu12" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CSS - Part
-                        6</a>
-                    <ul class="collapse list-unstyled" id="menu12">
-                        <li>
-                            <a href="#" onclick="embedVideo('1mjd-9kwhE9m7uwqntff8E6aDZpHWSiqp')">
-                                <i class="fa-regular fa-circle-play"></i> What is Grid
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('10Br1ArwdRBsZL-sje8Kx4xo_aSalXI4w')">
-                                <i class="fa-regular fa-circle-play"></i> Grid Model
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1MqdiGuQqILUnTJ4uJEQuVMHSvpzwrA4t')">
-                                <i class="fa-regular fa-circle-play"></i> Grid Template
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1c2o-0V6dmWmG12BnbI-A6hu-ZZQxe4l5')">
-                                <i class="fa-regular fa-circle-play"></i> Grid Template (repeat)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1iJNkbE49mLRGV4puKCkAqU6Tsbp30NGE')">
-                                <i class="fa-regular fa-circle-play"></i> Grid Gaps
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1G9OapVDle0Gn2_4cuevGEGCNdk5xu6oc')">
-                                <i class="fa-regular fa-circle-play"></i> Grid Columns
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1nt5PeVOiFv-8UIf0O28XIfhRhDU1uUAq')">
-                                <i class="fa-regular fa-circle-play"></i> Grid Rows
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1_Oz1yFCgITp9ymBj7Yj9wiKseK1cp8EA')">
-                                <i class="fa-regular fa-circle-play"></i> Grid Properties
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1FClEzlE73bRZByzlQVJAVXtmcB6RxbTn')">
-                                <i class="fa-regular fa-circle-play"></i> Animation in CSS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1M86llsOXDdbSSt2S9jSfEVbd-ghJGt6Y')">
-                                <i class="fa-regular fa-circle-play"></i> Animation Shorthand
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1H-DC5tJSBHg9bmrqU9fN6-MT1iyM_WGa')">
-                                <i class="fa-regular fa-circle-play"></i> in Animation
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1C2DLEtK-lZ_jMV5AbiY8RRua84hh3tqT')">
-                                <i class="fa-regular fa-circle-play"></i> Media Queries
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('16CEb0p2PQ91VuQFu_gFN5Obw-17pvIul')">
-                                <i class="fa-regular fa-circle-play"></i> Media Queries (Orientation)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1kcR-DCM4Xs8WR2sjj_QBGFKJiLjTAXjF')">
-                                <i class="fa-regular fa-circle-play"></i> Pet Adoption Page
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Pyp1t62B98fvN1_qo1qvzaY_64wr8RVM')">
-                                <i class="fa-regular fa-file-pdf"></i> Download Starter HTML
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1oS-9cAfFRBcZz37gMInh5fzBioXRpkK9')">
-                                <i class="fa-regular fa-circle-play"></i> z-index
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('12yKLyih8J4l6K48HCR-mAbcn9KFb1wZK')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1-uC8aNfAbxvcokrLChtsnW-1PPCBJRQA')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 13 -->
-                <li>
-                    <a href="#menu13" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Mini
-                        Project(CSS)</a>
-                    <ul class="collapse list-unstyled" id="menu13">
-                        <li>
-                            <a href="#" onclick="embedVideo('1HC_pNOLDZi-kNc1AfGh0CZXICJhDnenv')">
-                                <i class="fa-regular fa-circle-play"></i> Color Theory
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1fYZCLzdLKJ-H_7ZYnA1kmdO8TfuFARF4')">
-                                <i class="fa-regular fa-circle-play"></i> Typography
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1r-LwWJpq9ts3mhjnMUaJO39Buvvp9Q15')">
-                                <i class="fa-regular fa-circle-play"></i> Google Fonts
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1KpHO9H1CkpuVd2IYvyK0HHSxmm0UUXBd')">
-                                <i class="fa-regular fa-circle-play"></i> Icons
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1dIkKcJ-SAh-T8IZcSQUscxcIhwQtfDFV')">
-                                <i class="fa-regular fa-file-pdf"></i> Download Starter HTML
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1AO-d-r8Sh6zIC4wKYC5__AEDl44q_bPt')">
-                                <i class="fa-regular fa-circle-play"></i> Introduction
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1n-jZ2mILjggE5MhVeYXIYx_nSOhGBJNV')">
-                                <i class="fa-regular fa-circle-play"></i> Setting Style
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1fBR0WclfumfmpVDq53pAdVZ8sPWA07CM')">
-                                <i class="fa-regular fa-circle-play"></i> Sidebar Menu
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1SXu4Rb9YNGxiC_oS1S6D-31IEZcaNSzk')">
-                                <i class="fa-regular fa-circle-play"></i> Hover Changes
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1IJoX0bQuUS7nuSQ6ln5oY6KJBqcQHaJB')">
-                                <i class="fa-regular fa-circle-play"></i> Configuring Checkbox
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 14 -->
-                <li>
-                    <a href="#menu14" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Bootstrap</a>
-                    <ul class="collapse list-unstyled" id="menu14">
-                        <li>
-                            <a href="#" onclick="embedVideo('1y67icQ2fpsaZGIVlEn5epo6aJF9GHXWa')">
-                                <i class="fa-regular fa-circle-play"></i> What is Bootstrap?
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1pt0DRyT4kP5Kl7kzGnNfLnjOnXKRMRf5')">
-                                <i class="fa-regular fa-circle-play"></i> Using Bootstrap
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1OuS9y90enJ54WstjjHlfj1YMdvOM3W_I')">
-                                <i class="fa-regular fa-circle-play"></i> Container (Layout)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1M7ENSOiEfxa9o2PD4mUqpvdIi9dAlkRh')">
-                                <i class="fa-regular fa-circle-play"></i> Button (Component)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1654JrbNrIOtGdrKXQzSfIGL0UvevChbn')">
-                                <i class="fa-regular fa-circle-play"></i> Badge (Component)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ut4Js7yAqXrvDNwongb06YbR6ec71ReR')">
-                                <i class="fa-regular fa-circle-play"></i> Alert (Component)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1EZzX6u8HJYhm6q2IIbn_f2BmqSK2v5dg')">
-                                <i class="fa-regular fa-circle-play"></i> Button Group (Component)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1JzGDliIv729S_CLHuOGzB39x6R2zXNga')">
-                                <i class="fa-regular fa-circle-play"></i> Navbar (Component)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1yy9JdeLxnWlPzWxwV5grksC-HzKGq_Py')">
-                                <i class="fa-regular fa-circle-play"></i> Card (Component)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1aZor53FtEJzInzbnWKswYIiRdoYjTMTV')">
-                                <i class="fa-regular fa-circle-play"></i> Grid (Layout)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('17psPCX8xUukU3sC4qBk9C12qHgD-3FOB')">
-                                <i class="fa-regular fa-circle-play"></i> Grid (Vertical Alignment)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1tW1qxdgcbR8TITtUIC8SWYRCPR_a6P0r')">
-                                <i class="fa-regular fa-circle-play"></i> Form Controls in Bootstrap
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1-fh8tuaDjAQFj_zCBgRjl4qnp4WV57ap')">
-                                <i class="fa-regular fa-circle-play"></i> Select in Form
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1hpud777_hfnFNTp2yThLgreyNMyPXisf')">
-                                <i class="fa-regular fa-circle-play"></i> Checkbox Radio in Form
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1eWQkqgVMh-MEZTJcORP2rP33GsEpwfQQ')">
-                                <i class="fa-regular fa-circle-play"></i> Form Layout
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Qsm8rKxydYpl_FH28c7xUAQppo97eoiW')">
-                                <i class="fa-regular fa-file-pdf"></i> Bootstrap (Qs)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1yF7lPwi67L7atltC_YYpXqr2Fz-Zw-ze')">
-                                <i class="fa-regular fa-file-pdf"></i> Bootstrap (Ans)
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 15 -->
-                <li>
-                    <a href="#menu15" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle">Project(CSS)</a>
-                    <ul class="collapse list-unstyled" id="menu15">
-                        <li>
-                            <a href="#" onclick="embedVideo('1kajDl8HF1c7l6Gqv_hgBFJz_RgsjQfR3')">
-                                <i class="fa-regular fa-circle-play"></i> Download Starter HTML
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('12hVvKBplVJ3-m4jUVqK-sWuD9mUrZRwY')">
-                                <i class="fa-regular fa-circle-play"></i> Setting up
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Vtlf2sIMvs3mGK5n1yDgBHBFGGVYt0Le')">
-                                <i class="fa-regular fa-circle-play"></i> Basics
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1g7ebGLAArgS6oj82e_J1On4ZAJyj5zH4')">
-                                <i class="fa-regular fa-circle-play"></i> Layout
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1BgrGq6UbwSqO3tYoOh7rB_trXDnAfSry')">
-                                <i class="fa-regular fa-circle-play"></i> Sidebar (Nav)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('13YItdax4zzy79osx4h-5-tY6mnJk8NnQ')">
-                                <i class="fa-regular fa-circle-play"></i> Sidebar (Library)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1moGlZT6Tlv3so90GhakEbCHpB2LsZmhu')">
-                                <i class="fa-regular fa-circle-play"></i> Library Boxes
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1I-dnB1-AAn0LHlT3K0wuvPpL2suHmZrr')">
-                                <i class="fa-regular fa-circle-play"></i> Sticky Nav
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1RVnBwa2_6q4wHhHXwMwzUGT9V3u6t3TD')">
-                                <i class="fa-regular fa-circle-play"></i> Cards
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('11VmJGLZAr-DITCg_gAr_kTlHVKS6E_6S')">
-                                <i class="fa-regular fa-circle-play"></i> Footer Line
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('15xPgHYbpUtM-PZxwVOJi8mu6M59xr1we')">
-                                <i class="fa-regular fa-circle-play"></i> Setting up Player
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1DxudxCU2dA2J-nX9ZAB-mdCF6ZGPbtx0')">
-                                <i class="fa-regular fa-circle-play"></i> Player Controls
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1MbsrIZ-JNm1-KkUtEoZiyYXwrUuo2pXH')">
-                                <i class="fa-regular fa-circle-play"></i> Playback Bar
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1crxANSrWPEtyU_0BdJFpVdFaCRteqhLp')">
-                                <i class="fa-regular fa-circle-play"></i> Tailwind CSS
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 16 -->
-                <li>
-                    <a href="#menu16" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 1</a>
-                    <ul class="collapse list-unstyled" id="menu16">
-                        <li>
-                            <a href="#" onclick="embedVideo('1crimb6S0btXo-rQv3lqmSRUzwoH5UB4n')">
-                                <i class="fa-regular fa-circle-play"></i> Introduction
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Oga7TC2fxyiYWzNHWn9fZANEbM9P-kWm')">
-                                <i class="fa-regular fa-circle-play"></i> Using the Console
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1jzhzkFW1LC-u7TrybPSVDQOtR40pccHo')">
-                                <i class="fa-regular fa-circle-play"></i> What is a Variable
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1zf-oY9guBpOf6RtxEWvRY5DnSf2wFZO6')">
-                                <i class="fa-regular fa-circle-play"></i> Data Types in JS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1IDcG5JTq_RVRusoPC0s6jZghnmkEtP0T')">
-                                <i class="fa-regular fa-circle-play"></i> Numbers in JS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1CVuF_QBem_kuYsNo8POMDmikFxLm9a5K')">
-                                <i class="fa-regular fa-circle-play"></i> Operations in JS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1HQsmLtKD_gy6yFfOofydt20nuaYW7b5F')">
-                                <i class="fa-regular fa-circle-play"></i> NaN in JS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1YksAUlZsGhFsSKREDmpPd-_iOdOSJbAL')">
-                                <i class="fa-regular fa-circle-play"></i> Operator Precedence
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1RyHlEip65pD4_C6jxvDBNNhi-FiXAhhx')">
-                                <i class="fa-regular fa-circle-play"></i> let, const, var Keywords
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1iQpfIqBje0U0JwVeVBO5tJ79TB1hSXcZ')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1CRu5RKm7lNkSq5RsFzf7Ze6siXTrDPMS')">
-                                <i class="fa-regular fa-circle-play"></i> Assignment Operators
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ZV3NgqC6cTxAy-V08B-F0_7lzRft3F8K')">
-                                <i class="fa-regular fa-circle-play"></i> Unary Operators
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1A3W-yopcKBUlQfDSpRcuDkFjyeoeFtef')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1etRfmqZ6Fk3zi6iwVKR4alpsHlUbwiuN')">
-                                <i class="fa-regular fa-circle-play"></i> Identifier Rules
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1bpKaa9BYpOuglcH4JWdzKfPiT3mkxjk-')">
-                                <i class="fa-regular fa-circle-play"></i> Boolean in JS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1eY0hdEOkFBHeGkocjJfdbxuagvYzeiJw')">
-                                <i class="fa-regular fa-circle-play"></i> What is TypeScript?
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1o2rUz1R-EQfbaPB6j0h4jekO3YIDMnR9')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1m7X-RUYE6EmQfw1oznL7EegqCfDnXdEy')">
-                                <i class="fa-regular fa-circle-play"></i> String in JS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1UjAyvCBJJWVcYllg3VILQUC1Nn0NDcGM')">
-                                <i class="fa-regular fa-circle-play"></i> String Indices
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1JsK81t7cdsOg9FBVxR2gsKt6jmMJEdD8')">
-                                <i class="fa-regular fa-circle-play"></i> null undefined in JS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1JPIBk4kuhr__x-xXnBPScXOQ7g3f2vO-')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-
-
-                    </ul>
-                </li>
-
-                <!-- Menu 17 -->
-                <li>
-                    <a href="#menu17" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 2</a>
-                    <ul class="collapse list-unstyled" id="menu17">
-                        <li>
-                            <a href="#" onclick="embedVideo('1gAWlaHuTNhzt6vXUmt5DEumIg5-Bh74u')">
-                                <i class="fa-regular fa-circle-play"></i> console.log( )
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1pxJ3X0SZjfqvMVkAK131DoYKbK4OKiAn')">
-                                <i class="fa-regular fa-circle-play"></i> Linking JS File
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('10ibUG3llDiJmdroz2E7hQZsYrklK_Axq')">
-                                <i class="fa-regular fa-circle-play"></i> Template Literals
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1YxQnRwgJ6vd3mn80B8oIKE6sy3Wxr-80')">
-                                <i class="fa-regular fa-circle-play"></i> Operators in JS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ydSvXDk03M3nMRTFR_cOdomCJ7XncNA7')">
-                                <i class="fa-regular fa-circle-play"></i> Comparison Operators
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1DuedTH654WQLxqpuFgzCvY3QDTonqAEc')">
-                                <i class="fa-regular fa-circle-play"></i> Comparison for Non-numbers
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1n5QJv6WL2etupTkeTd377IjBCO2UGNcU')">
-                                <i class="fa-regular fa-circle-play"></i> Conditional Statements
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1dUaAm4VcPJ1G8PARifz_UFyhlsEYIUmU')">
-                                <i class="fa-regular fa-circle-play"></i> if Statement
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1nLMAXjNSEvcu11pXvLpe8ZKlMjKFpVq5')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1xYBarruN6q_b0lwR2lCe4AObVTNHO78I')">
-                                <i class="fa-regular fa-circle-play"></i> else if Statement
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1C2qpAUBShLhCyunZZm7Br2PW3yb566Xl')">
-                                <i class="fa-regular fa-circle-play"></i> else Statement
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ESqJ3T3cQoZFldDzsuAiGNO95KRGKG5B')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1vGdcP73x27E0PuHp4GzWIsirobppgwWo')">
-                                <i class="fa-regular fa-circle-play"></i> Nested if-else
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1_iQWNGsDdYYHdNqcQGv1teugu_NfC49m')">
-                                <i class="fa-regular fa-circle-play"></i> Logical Operators
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1CgBxdOT8WQlHCRv0DhWVxki9Rb2Nw0QS')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1TDQAtVVjLRiN76qBqbeyBkPDsza1gQzT')">
-                                <i class="fa-regular fa-circle-play"></i> truthy _ falsy
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1An-Tuy6g0iXZW4OInru-ZPdBPfzrHkVG')">
-                                <i class="fa-regular fa-circle-play"></i> Switch Statement
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1OZF1ZJO4A6iw2JHaQeLAkT3qYuZZ5IQW')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1T_jPfH1Z0ycY8aHOPgI2ngLfxYIVSObU')">
-                                <i class="fa-regular fa-circle-play"></i> Alerts _ Prompts
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ub4onxGJgMJZr30pOY8mQj3ZIMFpHElW')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part2 (Qs)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1DNx3P8knGaxSKUwZKMeO34o6H0deVpbD')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 2 (Ans)
-                            </a>
-                        </li>
-
-
-
-                    </ul>
-                </li>
-
-                <!-- Menu 18 -->
-                <li>
-                    <a href="#menu18" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 3</a>
-                    <ul class="collapse list-unstyled" id="menu18">
-                        <li>
-                            <a href="#" onclick="embedVideo('1sTPZv8DynARHuhJb4rH70-Oyi3v8qfms')">
-                                <i class="fa-regular fa-circle-play"></i> String Methods
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('18geWV7-eleSGimNLh1oOEXhP7P6u4aBN')">
-                                <i class="fa-regular fa-circle-play"></i> Trim Method
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('13a6O0hA42saXTwSUtUzqQ1jyUEe531tl')">
-                                <i class="fa-regular fa-circle-play"></i> Strings are Immutable in JS
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1E_6vOK_fsB3ebi1-77XrobHv9otvLXOf')">
-                                <i class="fa-regular fa-circle-play"></i> ToUpperCase and ToLowerCase
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1CsD3IwIbp8A-9_bL2Tn1T89J5upNKbeA')">
-                                <i class="fa-regular fa-circle-play"></i> Methods with Arguments - indexOf
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('142Yhw1glY_Vfuvub_UXOOk7XdrVV5-7Z')">
-                                <i class="fa-regular fa-circle-play"></i> Method Chaining
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1JtOoLTCgEZssuiMwwYcqCEg4yFui6uHV')">
-                                <i class="fa-regular fa-circle-play"></i> Slice Method
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1bZ9iXTtWjDm0xk2YOOEl9mEY989LdBtn')">
-                                <i class="fa-regular fa-circle-play"></i> Replace & Repeat Method
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1IDSLS0Vob-aw4z6RnNBmS4BUm7k7UBSp')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1I4XyxyIsfn88zp9-GHA_HsKnVAZJkHNx')">
-                                <i class="fa-regular fa-circle-play"></i> Array (Data Structure)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('15A8BmYafAAprkIgk7nox7dDiRnp7TnvB')">
-                                <i class="fa-regular fa-circle-play"></i> Visualizing Arrays
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1exSyHIl-1ryXTDCckRMGqOqvpDFIhrH4')">
-                                <i class="fa-regular fa-circle-play"></i> Creating Arrays
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1tUB3NfjXnhcTFY_fqMTe3I5y5JDrv5y_')">
-                                <i class="fa-regular fa-circle-play"></i> Arrays are Mutable
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1SfeukBOc5GwnYs-SzO-xNXElUtg7F39j')">
-                                <i class="fa-regular fa-circle-play"></i> Array Methods
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1R9aXno1QrBaIQoxQaCTnm32kIkuce0JA')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('10s91GjUi0s5YB8buO6wqFFkZ_fisHvuy')">
-                                <i class="fa-regular fa-circle-play"></i> indexOf & includes Method
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1TNDiAS782K0Cd8S034q1ff1xZMgXhveN')">
-                                <i class="fa-regular fa-circle-play"></i> Concatenation & Reverse
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1WioQQtCFjJOp6OLeEGk4iCNqgcw9aMB3')">
-                                <i class="fa-regular fa-circle-play"></i> Slice in Arrays
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Kzy3LDRi5UfelD9uchlEsskLTgDiA2en')">
-                                <i class="fa-regular fa-circle-play"></i> Splice in Arrays
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1efTSFqOZc2MkeGRDIqPPMygzKfLQr1NQ')">
-                                <i class="fa-regular fa-circle-play"></i> Sort in Arrays
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Z7lwg4_i4jc0HYHejVnvbGgo7Xj-JxqX')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1pgPjrN2BEze34KXKyzx1Af18iI9rj1aE')">
-                                <i class="fa-regular fa-circle-play"></i> Arrays References
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1U8qF8nuVOS0ShKn8KJHj4iXxKhqpgAAj')">
-                                <i class="fa-regular fa-circle-play"></i> Constant Arrays
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('10Acex06EH5HaGiLP4ki6EJFF1NzluHux')">
-                                <i class="fa-regular fa-circle-play"></i> Nested Arrays
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Cfk3VdefllCIutoTKu2FB0MtO3H_Bb_Y')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1atEkHaQyOecTbFLy4nqKtPm__CE07zDe')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part3 (Qs)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1VFC3gTYv_xDxh5-B22ZgKIezUsnkRjqX')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 3 (Ans)
-                            </a>
-                        </li>
-
-
-                    </ul>
-
-                </li>
-
-                <!-- Menu 19 -->
-                <li>
-                    <a href="#menu19" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 4</a>
-                    <ul class="collapse list-unstyled" id="menu19">
-                        <li>
-                            <a href="#" onclick="embedVideo('1IFSaCNqQIKeurNdwJy7lualPtvstdyB6')">
-                                <i class="fa-regular fa-circle-play"></i> for Loops
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1D4RKugbIi1n_FPcAtAHoCdn9Z-9TIHON')">
-                                <i class="fa-regular fa-circle-play"></i> Dry Run
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1HhvS9da2Nkd8893P_COoUfzX6SfdHcav')">
-                                <i class="fa-regular fa-circle-play"></i> Print Odd Numbers
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1dqPFEB3oMQT7c3yoCqrQdVOwryG23Sq8')">
-                                <i class="fa-regular fa-circle-play"></i> Print Even Numbers
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1hmnxXYOBmFV6gZFqKFWNTiJis0Rm64Qd')">
-                                <i class="fa-regular fa-circle-play"></i> Infinite Loops
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1vcHB5DcrVIUQKLrn0-k8z_dWa19SvsiM')">
-                                <i class="fa-regular fa-circle-play"></i> Print Multiplication Table
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ZN4U6q4t2nH07oZnHSI2KjmQ4KSd1Mqd')">
-                                <i class="fa-regular fa-circle-play"></i> Nested for Loop
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1neGyzjyb1nv1aG4Ho2Ma9JXSFc1U-FyQ')">
-                                <i class="fa-regular fa-circle-play"></i> while Loops
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1F1curz_V8_OakmZll169O5Bd2CDtTe0M')">
-                                <i class="fa-regular fa-circle-play"></i> Favorite Movie
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1VEz34pvMvUlx4MogIs1-XkDHE6zwmSI_')">
-                                <i class="fa-regular fa-circle-play"></i> break Keyword
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1uxJmscljRpBcxFEhSmlj9reLnffk5K3l')">
-                                <i class="fa-regular fa-circle-play"></i> Loops with Arrays
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1JADaBjwDgIsjrCpx_KyR7uTqamnQXlxD')">
-                                <i class="fa-regular fa-circle-play"></i> Loops with Nested Arrays
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ndf91gWr23LWbKBpyVBXIuRay6Ec_Ec1')">
-                                <i class="fa-regular fa-circle-play"></i> for-of Loops
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1r63eKYE6hBqVBuu0z17XwhG84tnSdLFz')">
-                                <i class="fa-regular fa-circle-play"></i> Nested for-of Loop
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1JOXrZJC8YwxYIvHIBkqAWfsC9yc6Nqxr')">
-                                <i class="fa-regular fa-circle-play"></i> Todo App (only JS)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1UBaffiVGt2-kD4glkRQX70imdOijwWWy')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 4 (Qs)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ysKDB7QqNnBGBqQ24T06dd-UtVh6j6ut')">
-                                <i class=" fa-regular fa-file-pdf"></i> JS Part 4 (Qs)
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- Menu 20 -->
-                <li>
-                    <a href="#menu20" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 5</a>
-                    <ul class="collapse list-unstyled" id="menu20">
-                        <li>
-                            <a href="#" onclick="embedVideo('15UmEYHkunpf357MkJDI1i7wj6p9EVzbI')">
-                                <i class="fa-regular fa-circle-play"></i> Object Literals
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1r6iYfJ8-Hf4cxTyGDfYpO9r_ERGmEq-J')">
-                                <i class="fa-regular fa-circle-play"></i> Creating Object Literals
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1BMxnA-L_k3Zff91lwrex11Amvd6grZWv')">
-                                <i class="fa-regular fa-circle-play"></i> Creating a Post
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1b55Tf4b4gFDF-inI1vfVVkEr8LsMNmcV')">
-                                <i class="fa-regular fa-circle-play"></i> Get Values
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1JFD3KZUSaI0FJe0fP6DO10p_CBGJvhWV')">
-                                <i class="fa-regular fa-circle-play"></i> Conversion in Get Values
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1OpV13ylYSI1B9_nn0rxIx3BZk8UtbILb')">
-                                <i class="fa-regular fa-circle-play"></i> Add & Update Values
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1vMegOxXDKRjSU1do2vsFYDDkAreXap8R')">
-                                <i class="fa-regular fa-circle-play"></i> Nested Objects
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1N6dvahAKqgHMxSzBxJAiosq11DTQHTVo')">
-                                <i class="fa-regular fa-circle-play"></i> Array of Objects
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('15qFZVxohzBNDubboKRxsof3FpJ3Vyx_6')">
-                                <i class="fa-regular fa-circle-play"></i> Math Object
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1GvRrBayzcLVtYlDwMRTe8D8cJzlQWU8M')">
-                                <i class="fa-regular fa-circle-play"></i> Random Integers
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('187f2npnyiXecB4JE_JABkWQr7vfeneEa')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1emR53BFdBt4e-HRsYcnGm7TtCeyRTwQ7')">
-                                <i class="fa-regular fa-circle-play"></i> Guessing Game
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1_kKJhKrWd0Nz26LYyZjC4PS3NmNdJCfx')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 5 (Qs)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1i9lBfExtFASu4v3BlkPPPATq-pN7By5k')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 5 (Ans)
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- Menu 21 -->
-                <li>
-                    <a href="#menu21" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 6</a>
-                    <ul class="collapse list-unstyled" id="menu21">
-                        <li>
-                            <a href="#" onclick="embedVideo('17dvSTHLNocdu9QAqaihbDyMRbaWAL7kD')">
-                                <i class="fa-regular fa-circle-play"></i> What are functions?
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1BAQ7vPYctWQ-wYVavdly_UoOQLlxL1N5')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs 1
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('171E3PsHb6PAY6B4YJFsrnw6J81lDHEl9')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs 2
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1QWQkbJVszSev8tu_24DQncblWjGP8Uis')">
-                                <i class="fa-regular fa-circle-play"></i> Functions with Arguments
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1z8S-tqJpl1_JgFpsCzypZWlbY61wxjgY')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs 3
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1SBqPYU8EQDCxrPiUHF88BNrUBXwpLP_c')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs 4
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Bshnh8hYJ1TuwjePo4dkb_iMY94JpT8e')">
-                                <i class="fa-regular fa-circle-play"></i> return Keyword
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1jk-kuvC_AVYZlxvlXfU8BN0kUGuyQUxG')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs 5
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1MOXv0VMda4g6HH4qaQzUCxrjNYiBFfkJ')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs 6
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('18u0QkLbtOThVoQPV6IEQcf_WHUcB92UO')">
-                                <i class="fa-regular fa-circle-play"></i> What is Scope?
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1uuLj6tCzCKcOcmSV0dVtoJysgSg6HfYI')">
-                                <i class="fa-regular fa-circle-play"></i> Block Scope
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1iZvxLFwq59A19GCVZpsDXIQ3SmX4fSv7')">
-                                <i class="fa-regular fa-circle-play"></i> Lexical Scope
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1NBsFviZYLlQNCdxK9-dbZHHI15II0DfU')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs 7
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1NLnROUdNut18ym2WBKZ1nYu9n9BvC-Dg')">
-                                <i class="fa-regular fa-circle-play"></i> Functions Expressions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1NsM52R_DtZDXupjeLFhpTXWaPfc77mok')">
-                                <i class="fa-regular fa-circle-play"></i> Higher Order Functions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1hPdyG_XMO3wXK1nj8DHVigej-n3Kv6Hl')">
-                                <i class="fa-regular fa-circle-play"></i> Higher Order Functions (Returns)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Dn1nhHoVPh14_FptQt6zTcTkIYwQW9QQ')">
-                                <i class="fa-regular fa-circle-play"></i> Methods
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1C13Xa6DJtC7RgN1Ak_V3qWQ-5XIUs6Nf')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 6 (Qs)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1FKmzKHvmte_QGOzi5LADdyj522-fZsi_')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 6 (Ans)
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 22 -->
-                <li>
-                    <a href="#menu22" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 7</a>
-                    <ul class="collapse list-unstyled" id="menu22">
-                        <li>
-                            <a href="#" onclick="embedVideo('1LVt6WrHcFc-aw83FVhZ5gf5yw0qmgLzi')">
-                                <i class="fa-regular fa-circle-play"></i> _this_ in JavaScript
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1jaJUFlOpFZpwotJU_4hLjP2693ouV2fE')">
-                                <i class="fa-regular fa-circle-play"></i> Try _ Catch
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Z5pocjT9IdDZH0iH9yM2uUIHjrATczsw')">
-                                <i class="fa-regular fa-circle-play"></i> Arrow Functions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1PQkPnFHm_y17teCsqbujJ0yo6OpTMfKY')">
-                                <i class="fa-regular fa-circle-play"></i> Implicit Return in Arrow Functions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('16lr-t-pjmG4750GN3GErBVnELNbXwPFH')">
-                                <i class="fa-regular fa-circle-play"></i> Set TimeOut Function
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1pT55PN0SGZqm6TfHu2NuehFWnl313uFW')">
-                                <i class="fa-regular fa-circle-play"></i> Set Interval Function
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1AgfLYAl2pT5aSct5AO7atR3k6U1jZvyL')">
-                                <i class="fa-regular fa-circle-play"></i> this with Arrow Functions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Fg7U1r7I21rM9sFTqB-ZzkHKYK3CMftl')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1d-pGJ5C_81GKLmCbnlRBjRzzPAn9jrkQ')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 7 (Qs)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1LgOfEr0YTjWDVEWaWrt1KEL4cKaMHxkE')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 7 (Ans)
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 23 -->
-                <li>
-                    <a href="#menu23" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 8</a>
-                    <ul class="collapse list-unstyled" id="menu23">
-                        <li>
-                            <a href="#" onclick="embedVideo('1v09bMfhEQWFGci4CVRVA69R6DxLUwSFl')">
-                                <i class="fa-regular fa-circle-play"></i> Array Methods
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1OX53DhF3VYTzxtCS8ENk3ER42Qkods7L')">
-                                <i class="fa-regular fa-circle-play"></i> Map & Filter
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1C3jTgl7OVwVzluq0Ag7SoDOXjjtTaiMT')">
-                                <i class="fa-regular fa-circle-play"></i> Every & Sum
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1h7qIQ8IisZjavMLO_kwXEVsfvUf5Y-U5')">
-                                <i class="fa-regular fa-circle-play"></i> Reduce Method
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1OKvPVJBImrGI7_3efYPxwr1TvXtJ0s1d')">
-                                <i class="fa-regular fa-circle-play"></i> Maximum in Array
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1oJUdyY9MQQ5oSTJ1KlAYV1_E2ERgGxD1')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('14JWxZyhnovN4yQB9UJjdrHm3JPUSoRNL')">
-                                <i class="fa-regular fa-circle-play"></i> Default Parameters
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('18eS-nBB-CZXh3wPYIgtPLzOCY_vnhFlt')">
-                                <i class="fa-regular fa-circle-play"></i> Spread
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1wcCBIOo6IA12A7jMlUwQ5PqrqdccIGYI')">
-                                <i class="fa-regular fa-circle-play"></i> Spread (Array Literals)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1gHRyyBNuKsYRTEK_N6KdZbJSwWavGM68')">
-                                <i class="fa-regular fa-circle-play"></i> Spread (Object Literals)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1BliO0YPSXqNkIuHTUNarovXDNQRVT9FK')">
-                                <i class="fa-regular fa-circle-play"></i> Rest
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1dxDJvQd0SnQdeipJvyVufCJYrZn_iY6X')">
-                                <i class="fa-regular fa-circle-play"></i> Destructuring
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1t2D4D3hnA3ztvlrMVWUWMmwyIMWqiNO-')">
-                                <i class="fa-regular fa-circle-play"></i> Destructuring (Objects)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1LKXguNcoU6l9BFz81JKNkX_RMq8Sug4M')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 8 (Qs)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1qMR60wy1XGp6fLoIsAbzb2pZp6u2TQNw')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 8 (Ans)
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 24 -->
-                <li>
-                    <a href="#menu24" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 9</a>
-                    <ul class="collapse list-unstyled" id="menu24">
-                        <li>
-                            <a href="#" onclick="embedVideo('1aGCWcJG4hTRM3aI1EnqwXaUCJmTi3-xY')">
-                                <i class="fa-regular fa-circle-play"></i> Introduction
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1xr8UU8dHW68H-JZmNbxQc24dQ8Oyecv7')">
-                                <i class="fa-regular fa-circle-play"></i> What is DOM
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1bQavJ3lbeNAEco-Bsbm876AAUZhnmEoL')">
-                                <i class="fa-regular fa-circle-play"></i> Download Starter Code
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1EsxbbXgom-i20pNTgK8syFWqxnMf8VW7')">
-                                <i class="fa-regular fa-file-pdf"></i> Link For Download
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1J77pt_kgvXlI3mBI4QDsqNKt6EJfgDI0')">
-                                <i class="fa-regular fa-circle-play"></i> Selecting Element by ID
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('13QvtMZ8sd7deU07JZ5VSJu1L5vHdV4Kk')">
-                                <i class="fa-regular fa-circle-play"></i> Selecting Elements by Class Name
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Cr8TgMjtnaRXeVCsHv-9QNQJahFPMa91')">
-                                <i class="fa-regular fa-circle-play"></i> Selecting Elements by Tag Name
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1RK5kI3VxQmQVT-ci4g5dEgnkOAOCjBao')">
-                                <i class="fa-regular fa-circle-play"></i> Query Selectors
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1vL-ckKxT3JwkY2MKXnbsfjRndidWGmQA')">
-                                <i class="fa-regular fa-circle-play"></i> Setting Content in Objects
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1WnpY1x6HePCPCe0Iy8rRzQzWzpyM3vpK')">
-                                <i class="fa-regular fa-circle-play"></i> Manipulating Attributes
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1rvUW23MTM1atMszTdWiwhDZO6bELAdFz')">
-                                <i class="fa-regular fa-circle-play"></i> Manipulating Style (with style attribute)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1VE7z0Jm5tl8HqBnN-MvmU3LCx7GrRPyP')">
-                                <i class="fa-regular fa-circle-play"></i> classList Property
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1B_T9TZreJoXDRo4n5IaYMcTUp0GkjNp_')">
-                                <i class="fa-regular fa-circle-play"></i> Navigation on Page
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1bBghiy7Am-rbRPwWV9D_hJLlXs-smJmA')">
-                                <i class="fa-regular fa-circle-play"></i> Adding Elements on Page
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1p5zFrcjl4PYkHw9MG9GOiV7qPDPZ5ywG')">
-                                <i class="fa-regular fa-circle-play"></i> Removing Elements from Page
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1VdvxnivZVLXnVG1wR_KgV56lS_0pfPAQ')">
-                                <i class="fa-regular fa-circle-play"></i> Practice Qs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1nEXQ4wyAfIlpByfzM56GUn7EswYw224V')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Questions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1YU6kjlUA1d6GiOwCEy145jOZK9xeIdwS')">
-                                <i class="fa-regular fa-file-pdf"></i> Assignment Answers
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- Menu 25 -->
-                <li>
-                    <a href="#menu25" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 10</a>
-                    <ul class="collapse list-unstyled" id="menu25">
-                        <li>
-                            <a href="#" onclick="embedVideo('1Rb4tnLwuQRngn9tIRLd1-UudowZgkrdL')">
-                                <i class="fa-regular fa-circle-play"></i> DOM Events
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1pcCYz2pYA4pp1lVICeLh0Z_A22iH1OhQ')">
-                                <i class="fa-regular fa-circle-play"></i> Mouse Pointer Events
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1WznYaeGZZsCvdWoxe34Fy9WZRDKA8i7_')">
-                                <i class="fa-regular fa-circle-play"></i> Event Listeners
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1dRw7w7Y0W-BrBLmWgvPVpbAfsceKJqvv')">
-                                <i class="fa-regular fa-circle-play"></i> Activity
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1YABJMdZmJCzDYB-o51uH8iBRhEXaCkKY')">
-                                <i class="fa-regular fa-circle-play"></i> Event Listeners for Elements
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Bd7bw6w8n9vWCncgcQJMjkxm4iS4p3ND')">
-                                <i class="fa-regular fa-circle-play"></i> this in Event Listeners
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1V2Cu5mKyMCxYh6b93P8DAm-RJ0BxHpbK')">
-                                <i class="fa-regular fa-circle-play"></i> Keyboard Events
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('15AKVjtFBts3aKsYgi4bqbSQr9J_5hStk')">
-                                <i class="fa-regular fa-circle-play"></i> Form Events
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1PwaplzHberkI4IPtQ9ufbd4FT5mkQZp2')">
-                                <i class="fa-regular fa-circle-play"></i> Extracting Form Data
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1I1uQq_uFDrSV8qMArrZcDTFqaL6Hvw6N')">
-                                <i class="fa-regular fa-circle-play"></i> More Events
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1AhsAlox2NMsgwBI05qvtHjKwnwkiTh-u')">
-                                <i class="fa-regular fa-file-pdf"></i> JS Part 10 (Qs)
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 26 -->
-                <li>
-                    <a href="#menu26" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle">JavaScript(Mini-Project)</a>
-                    <ul class="collapse list-unstyled" id="menu26">
-                        <li>
-                            <a href="#" onclick="embedVideo('1Q50tPT_5_Vo4aeG7hmL3vwV_SwkQEBS1')">
-                                <i class="fa-regular fa-circle-play"></i> Event Bubbling
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1OsVWK42ztwDlQdEfOOjfp9vJeI_twbFw')">
-                                <i class="fa-regular fa-circle-play"></i> Building Todo with DOM
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1rebRJN_Nr_3I_4HDeiSczm8SdizUQcVQ')">
-                                <i class="fa-regular fa-circle-play"></i> Event Delegation
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1vwUHNRbJDwsT8YsR4Hm5DRcFpuElIF7L')">
-                                <i class="fa-regular fa-circle-play"></i> How to play Simon
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1h7HWE6-8Fu0Gg_jbMPgCNWVGlnv19HbU')">
-                                <i class="fa-regular fa-circle-play"></i> Setting up Project
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1UsibJ8m9KKK8_bXW88-TawGCWWOeDjXJ')">
-                                <i class="fa-regular fa-circle-play"></i> Start Game
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1_KaTnoN9r-uVaZtV80a7OBw63nQJr0mu')">
-                                <i class="fa-regular fa-circle-play"></i> Flash Buttons & Level Up
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('141AE3p0kkGJSCpKgDcHJNmK0apdNDqrj')">
-                                <i class="fa-regular fa-circle-play"></i> Button Event Listeners
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1fDzAPKX7wfx_PIylUSqhvos11ogAqdox')">
-                                <i class="fa-regular fa-circle-play"></i> Matching Sequence
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1w5ZnwXgS5vVPJr1i637tNO98QtdT-vDL')">
-                                <i class="fa-regular fa-circle-play"></i> Reset Game
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Jv9YjNGVEY5tKntNqSCZIXObqwO7WDKR')">
-                                <i class="fa-regular fa-circle-play"></i> Display Score
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 27 -->
-                <li>
-                    <a href="#menu27" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 11</a>
-                    <ul class="collapse list-unstyled" id="menu27">
-                        <li>
-                            <a href="#" onclick="embedVideo('1GuX9pJuegA0XQ2rjmcyAdQlSZpWOJUyT')">
-                                <i class="fa-regular fa-circle-play"></i> JS Call Stack
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1QiGBJcaSrJWuY2-nn9pLCpI3sBduUoLW')">
-                                <i class="fa-regular fa-circle-play"></i> Visualizing the Call stack
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1wltTbU_NtHID4CBa9Hx-ALxDkJLGQkd2')">
-                                <i class="fa-regular fa-circle-play"></i> Breakpoints
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Gw_ywP5zRgqTn9lv95BrAlyXBtkDEMrB')">
-                                <i class="fa-regular fa-circle-play"></i> JS is Single Threaded
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1T8NNT4_mK5zvdyEKfuY56tjSTM2J9tFo')">
-                                <i class="fa-regular fa-circle-play"></i> Callback Hell
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1ZCu5lfl9n24M861AgTPinGC7E4jS_HC3')">
-                                <i class="fa-regular fa-circle-play"></i> Setting up for Promises
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('12iQSEuKVR1MdnaEsHgFG6ioRJ3m7QH9h')">
-                                <i class="fa-regular fa-circle-play"></i> Refactoring with Promises
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1AHEOsIXd16BWtugy6L0KMa0BW2grnVR2')">
-                                <i class="fa-regular fa-circle-play"></i> then( ) and catch( ) methods
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1cmSOOGMJ6cNzKZ0tuDs-FR1a4b_oeh25')">
-                                <i class="fa-regular fa-circle-play"></i> Promise chaining
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1KpEkzrVlPlDlkd1TkS20FgRZ465qbiqn')">
-                                <i class="fa-regular fa-circle-play"></i> Results Errors in Promises
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('17mPVuWEVAWnVd22EV3pBByY3RlXQ3hnf')">
-                                <i class="fa-regular fa-circle-play"></i> Refactoring old code
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 28 -->
-                <li>
-                    <a href="#menu28" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 12</a>
-                    <ul class="collapse list-unstyled" id="menu28">
-                        <li>
-                            <a href="#" onclick="embedVideo('1JaN3fNAcJVDt1wdLXogtCLAPU7vWzz7X')">
-                                <i class="fa-regular fa-circle-play"></i> async Functions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1bP4oCQp-8u-sHhQntboyL_lI1DDEaTZm')">
-                                <i class="fa-regular fa-circle-play"></i> await Keyword
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1G0_KbdDp92YTwI50hQNlD4K4GkXrgIlV')">
-                                <i class="fa-regular fa-circle-play"></i> Handing Rejections
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1SjnhQMpZx6L1eMMRl8kool3fLwNbi6KL')">
-                                <i class="fa-regular fa-circle-play"></i> What is an API
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1zm3wfgkqb7V-tSEECaheuD0si41YI4_e')">
-                                <i class="fa-regular fa-circle-play"></i> Accessing some APIs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1DeXv2gqDbgdd5pv0AhwB-wc3qegK-ysk')">
-                                <i class="fa-regular fa-circle-play"></i> What is JSON
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('19_8Y93HcAqt1mxLIqZMQdcvz-2TujFoJ')">
-                                <i class="fa-regular fa-circle-play"></i> Accessing JSON data
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Yjgh6j6PyoBuq1JtbHAmtlp3bpe1nhTD')">
-                                <i class="fa-regular fa-circle-play"></i> API Testing Tools
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1fxABZUXCSqpK5x9hSi-GpLsWcl3W0S8n')">
-                                <i class="fa-regular fa-circle-play"></i> What is Ajax?
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1sTZS5HImaKSGIWoCxOQ9ITOEnxPkvzYO')">
-                                <i class="fa-regular fa-circle-play"></i> Https Verbs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('14u8DrdPlQxo18aFRiQuDTfSPngT6Gk15')">
-                                <i class="fa-regular fa-circle-play"></i> Status Codes
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1M7V5XtfMIaQUwjWTCRgG2bgoebmpzNnh')">
-                                <i class="fa-regular fa-circle-play"></i> Adding Information in URLs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1mQ4CfL0At8S7xTGKBgHS1tve8JB23kcP')">
-                                <i class="fa-regular fa-circle-play"></i> Https Headers
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1Yvm_DfZwoEFaRznqI4sHkQA4nJbRJr4y')">
-                                <i class="fa-regular fa-circle-play"></i> Our First API request
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1tcASgzPn1A3W8f9ITNwAE3DYmNovUImc')">
-                                <i class="fa-regular fa-circle-play"></i> Using Fetch with async-await
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 29 -->
-                <li>
-                    <a href="#menu29" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">JavaScript -
-                        Part 13</a>
-                    <ul class="collapse list-unstyled" id="menu29">
-                        <li>
-                            <a href="#" onclick="embedVideo('1j72bO0niNQGFlaxJLxrCh8bHiR43elzk')">
-                                <i class="fa-regular fa-circle-play"></i> Using Axios
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1g8UvXXZAPrYLcdY2o1KX01CrmIltkMNc')">
-                                <i class="fa-regular fa-circle-play"></i> DogPictures API
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1fg9vl7cDQw_Yn4g9RDlJwVCaDDleEUgZ')">
-                                <i class="fa-regular fa-circle-play"></i> Sending Headers with API requests
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1FYGDKvrSO1d2ODtYLahwAO1PDnazRfXq')">
-                                <i class="fa-regular fa-circle-play"></i> Activity using Query Strings
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="embedVideo('1LBJt5CjiRH3OdVM3TdgkjY62nkx8FWD2')">
-                                <i class="fa-regular fa-file-pdf"></i> Free APIs List for Project
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <!-- Menu 30 -->
-                <li>
-                    <a href="#menu30" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Terminal</a>
-                    <ul class="collapse list-unstyled" id="menu30">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 31 -->
-                <li>
-                    <a href="#menu31" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Github</a>
-                    <ul class="collapse list-unstyled" id="menu31">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 32 -->
-                <li>
-                    <a href="#menu32" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">NODE
-                        JS</a>
-                    <ul class="collapse list-unstyled" id="menu32">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 33 -->
-                <li>
-                    <a href="#menu33" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Express</a>
-                    <ul class="collapse list-unstyled" id="menu33">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 34 -->
-                <li>
-                    <a href="#menu34" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">EJS</a>
-                    <ul class="collapse list-unstyled" id="menu34">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 35 -->
-                <li>
-                    <a href="#menu35" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle">Miscellaneous</a>
-                    <ul class="collapse list-unstyled" id="menu35">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 36 -->
-                <li>
-                    <a href="#menu36" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">REST</a>
-                    <ul class="collapse list-unstyled" id="menu36">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 37 -->
-                <li>
-                    <a href="#menu37" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">SQL -
-                        Part
-                        1</a>
-                    <ul class="collapse list-unstyled" id="menu37">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 38 -->
-                <li>
-                    <a href="#menu38" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">SQL -
-                        Part
-                        2</a>
-                    <ul class="collapse list-unstyled" id="menu38">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 39 -->
-                <li>
-                    <a href="#menu39" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">NODE
-                        with
-                        SQL</a>
-                    <ul class="collapse list-unstyled" id="menu39">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 40 -->
-                <li>
-                    <a href="#menu40" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">MongoDB -
-                        Installation</a>
-                    <ul class="collapse list-unstyled" id="menu40">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 41 -->
-                <li>
-                    <a href="#menu41" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">MongoDB -
-                        Part 1</a>
-                    <ul class="collapse list-unstyled" id="menu41">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 42 -->
-                <li>
-                    <a href="#menu42" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">MongoDB -
-                        Part 2</a>
-                    <ul class="collapse list-unstyled" id="menu42">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 43 -->
-                <li>
-                    <a href="#menu43" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">MongoDB with
-                        Express</a>
-                    <ul class="collapse list-unstyled" id="menu43">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 44 -->
-                <li>
-                    <a href="#menu44" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 1) - Part A</a>
-                    <ul class="collapse list-unstyled" id="menu44">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 45 -->
-                <li>
-                    <a href="#menu45" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 1) - Part B</a>
-                    <ul class="collapse list-unstyled" id="menu45">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 46 -->
-                <li>
-                    <a href="#menu46" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle">Middlewares</a>
-                    <ul class="collapse list-unstyled" id="menu46">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 47 -->
-                <li>
-                    <a href="#menu47" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Errors</a>
-                    <ul class="collapse list-unstyled" id="menu47">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 48 -->
-                <li>
-                    <a href="#menu48" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 1) - Part C</a>
-                    <ul class="collapse list-unstyled" id="menu48">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 49 -->
-                <li>
-                    <a href="#menu49" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Database
-                        Relationships</a>
-                    <ul class="collapse list-unstyled" id="menu49">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 50 -->
-                <li>
-                    <a href="#menu50" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 2) - Part A</a>
-                    <ul class="collapse list-unstyled" id="menu50">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 51 -->
-                <li>
-                    <a href="#menu51" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 2) - Part B</a>
-                    <ul class="collapse list-unstyled" id="menu51">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 52 -->
-                <li>
-                    <a href="#menu52" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 2) - Part C</a>
-                    <ul class="collapse list-unstyled" id="menu52">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 53 -->
-                <li>
-                    <a href="#menu53" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 2) - Part D</a>
-                    <ul class="collapse list-unstyled" id="menu53">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 54 -->
-                <li>
-                    <a href="#menu54" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 2) - Part E</a>
-                    <ul class="collapse list-unstyled" id="menu54">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 55 -->
-                <li>
-                    <a href="#menu55" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 3) - Part A</a>
-                    <ul class="collapse list-unstyled" id="menu55">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 56 -->
-                <li>
-                    <a href="#menu56" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 3) - Part B</a>
-                    <ul class="collapse list-unstyled" id="menu56">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 57 -->
-                <li>
-                    <a href="#menu57" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 3) - Part C</a>
-                    <ul class="collapse list-unstyled" id="menu57">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 58 -->
-                <li>
-                    <a href="#menu58" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (Phase 3) - Part D</a>
-                    <ul class="collapse list-unstyled" id="menu58">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 59 -->
-                <li>
-                    <a href="#menu59" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">React
-                        - Part
-                        1</a>
-                    <ul class="collapse list-unstyled" id="menu59">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 60 -->
-                <li>
-                    <a href="#menu60" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">React
-                        - Part
-                        2</a>
-                    <ul class="collapse list-unstyled" id="menu60">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 61 -->
-                <li>
-                    <a href="#menu61" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">React
-                        - Part
-                        3</a>
-                    <ul class="collapse list-unstyled" id="menu61">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 62 -->
-                <li>
-                    <a href="#menu62" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">React
-                        - Part
-                        4</a>
-                    <ul class="collapse list-unstyled" id="menu62">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 63 -->
-                <li>
-                    <a href="#menu63" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">React
-                        - Part
-                        5</a>
-                    <ul class="collapse list-unstyled" id="menu63">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 64 -->
-                <li>
-                    <a href="#menu64" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">React
-                        - Part
-                        6</a>
-                    <ul class="collapse list-unstyled" id="menu64">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 65 -->
-                <li>
-                    <a href="#menu65" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project
-                        (React)</a>
-                    <ul class="collapse list-unstyled" id="menu65">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-                <!-- Menu 66 -->
-                <li>
-                    <a href="#menu66" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Tailwind</a>
-                    <ul class="collapse list-unstyled" id="menu66">
-                        <li>
-                            <a href="#" onclick="embedVideo('video_id_here')">
-                                <i class="fa-regular fa-circle-play"></i> Submenu Item
-                            </a>
-                        </li>
-                        <!-- Add more submenu items as needed -->
-                    </ul>
-                </li>
-
-
-
-
-
-
-
-
-
-            </ul>
-
-        </nav>
-
-        <!-- Page Content  -->
-        <div id="content">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-info btn-sidebar">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
+                <div class="ele" style="justify-content: end;">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <div class="lst">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-primary btn-lg"
+                                        style="background-color: #6674CC; font-weight: 500;">
+                                        New Sigma Feb'24
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link black" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle black" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        New Courses
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Sigma Feb'24 (Development + DSA)</a></li>
+                                        <li><a class="dropdown-item" href="#">Delta Feb'24 (Development)</a></li>
+                                        <li><a class="dropdown-item" href="#">Sigma Dec'23(DSA + Development)</a></li>
+                                        <li><a class="dropdown-item" href="#">Alpha Plus 2.0 (DSA)</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link black" href="login.html">Log in</a>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-outline-primary btn-lg"
+                                        style="color: #6674CC; background-color: white;">
+                                        <b>Sign up</b>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+
+
+
+
                 </div>
-            </nav>
-
-
-            <!-- <div>
-                <a href="delta.html"><button>DELTA</button></a>
-                <button onclick="embedVideo('1YMcaza95MUnRKcuWE9TW_73kTZO4fwLr')">Embed Video 1</button>
-                <button onclick="embedVideo('13Vcz2F6Kyu2j41f28_X7_rjNcI5GR3s8')">Embed Video 2</button>
-            </div> -->
-
-            <div id="videoContainer">
             </div>
-        </div>
+        </nav>
     </div>
 
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
+    <!-- First Section -->
 
+    <section class="wd">
+        <div class="container text-left" style="padding-top: 6rem;">
+            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-2">
+                <div class="col">
+                    <P style="font-size: 3.5rem; font-weight: bold;">Learn & become the</P>
+                    <p style="font-size: 3.5rem; font-weight: bold; color: #6674CC;">Top 1% software developer</P>
+
+                    <span id="element" style="font-size: 2rem; "></span>
+
+                    <br>
+
+                    <br>
+                    <button type="button" class="btn btn-primary btn-lg"
+                        style="background-color: #6674CC; font-weight: 500; font-size: 1.5rem;">
+                        Explore new batches > </button>
+                </div>
+                <div class="col align-right" style="display: flex; justify-content: end;">
+                    <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/fcc79fff0a31cd4c6290d3d3ada29edf.png" class="img-fluid" style="height: 80%;" alt="">
+                </div>
+            </div>
+        </div>
+        <span id="element" style="color: black;"></span>
+    </section>
+
+
+    <!-- 2nd Section -->
+
+    <section style="background-color: #6674CC;">
+        <div class="container text-center" style="padding-top: 3rem; padding-bottom: 3rem;">
+            <h3 style="justify-content: center; text-align: center; color: white; font-weight: 700;">INDIA'S MOST LOVED
+                CODING COMMUNITY ❤️</h3>
+            <br>
+            <div class="row stats">
+                <div class="col">
+                    <h3><i class="fa-solid fa-users"></i>&nbsp; &nbsp; 4,000,000+</h3>
+                    <h4>HAPPY LEARNERS</h4>
+                </div>
+                <div class="col">
+                    <h3><i class="fa-solid fa-hand-holding-heart"></i>&nbsp; &nbsp; 3 CRORE+</h3>
+                    <h4>MONTHLY VIEWS</h4>
+                </div>
+                <div class="col">
+                    <h3><i class="fa-solid fa-link"></i>&nbsp; &nbsp; 100,000+</h3>
+                    <h4>NEW MONTHLY SUBSCRIBERS</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3rd Section -->
+
+    <section style="background-color: white; padding: 5rem;">
+        <center>
+            <h4 style="justify-content: center; text-align: center; color: #6674CC; font-weight: 700;">NEW WEB
+                DEVELOPMENT + DSA BATCH🔥</h4>
+            <br>
+            <h3 style="font-weight: 700;">JOIN NEW SIGMA!</h3>
+            <br>
+            <p style="font-size: 1.5rem; font-weight: 400;">Start your new journey today</p>
+            <br>
+            <button type="button" class="btn btn-primary btn-lg"
+                style="background-color: #6674CC; font-weight: 500; font-size: 1.5rem;">
+                Explore >> </button>
+        </center>
+    </section>
+
+    <!-- Company Logos -->
+
+    <section style="padding: 5rem; background-color: #f8f8fd; border-bottom: 1px solid black;">
+        <center>
+            <p style="font-size: 2.5rem; font-weight: 300;">Thousands of students achieved their <span
+                    style="color: #6674CC; font-weight: bold;">dream job at</span></p>
+            <br>
+            <div class="container text-center">
+                <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 com-logo">
+                    <div class="col">
+                        <img src="./assets/amazon.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/google.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/microsoft.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/goldman.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/paypal.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/samsung.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/salesforce.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/netapp.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/hitachi.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/jpmorgan.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/ibm.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/dell.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/delloite.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/kpmg.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/isro.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/mercedes.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/ey.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/airtel.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p style="color: gray; font-weight: 300; font-size: 1.75rem;">+ many more</p>
+        </center>
+    </section>
+
+    <!-- Selected Students -->
+
+    <section style="background-color: #f8f8fd; padding: 5rem;">
+        <center>
+            <p style="font-size: 1.8rem; font-weight: 700; color: #6674CC;">Our Selected Students</p>
+
+            <div class="container text-center">
+                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-1 img-selected">
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/805471d9761558c6d6cca0c882c117fc.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/634fb9908b184a72081f433a0a2b47aa.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/61364d7b08aa37125debd38bbe0b7199.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/c983a0358971c733e62bccda3f126749.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/b71a8bf79d28cd11145e6bbbc9e7893a.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/d77832c3f3e1ac2f3727ff299da4bcd7.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/3c8e8869b39f47e49ac0fd0d8295f371.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/18f65e833dc86ebe262d1df17d811354.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/91b677b6dc088223dd79e464a42d4720.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/53f99f7c23681c97140e69b6859dcec2.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/797a69b7d94d104d723f7a7166ff9b5c.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/bf25eb13370c956cd7202501742abbc1.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/f23a7e294087a8dbf049cb82bb3e7ce2.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/ba187d253f8df0729c893b06d417e35c.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/70217e38fe7d9f60149a932aaed98496.png"
+                            alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/9307f7a34e36f99fa73324192dc257b5.png"
+                            alt="">
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary btn-lg"
+                style="background-color: #6674CC; font-weight: 500; font-size: 1.5rem;">
+                See More > </button>
+        </center>
+    </section>
+
+    <!-- Mission -->
+
+    <section style="background-color: white; padding: 5rem;">
+        <center>
+            <h3 style="font-weight: 900;">ON A MISSION TO TEACH MILLIONS</h3>
+            <br>
+            <br>
+            <img src="./assets/mission.jpeg" alt="" style="width: 80%;">
+        </center>
+    </section>
+
+    <!-- Join us on -->
+
+    <section style="background-color: #f8f8fd; padding: 5rem;">
+        <center>
+            <h3 style="font-weight: bolder;">JOIN US ON</h3>
+            <span id="social-media" style="font-size: 1.2rem; "></span>
+
+            <div class="container text-center">
+                <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-1" style="padding-top: 3rem;">
+                    <div class="col">
+                        <i class="fa-brands fa-youtube" style="color: red; font-size: 2.5rem;"></i>
+                        <br>
+                        <span style="font-weight: 300;">Youtube</span>
+                        <br>
+                        <p style="font-weight: bold;">APNA COLLEGE</p>
+                    </div>
+                    <div class="col">
+                        <i class="fa-brands fa-instagram" style="color: deeppink; font-size: 2.5rem;"></i>
+                        <br>
+                        <span style="font-weight: 300;">Instagram</span>
+                        <br>
+                        <p style="font-weight: bold;">AMAN DHATTARWAL</p>
+                    </div>
+                    <div class="col">
+                        <i class="fa-brands fa-telegram" style="color: blue; font-size: 2.5rem;"></i>
+                        <br>
+                        <span style="font-weight: 300;">Telegram</span>
+                        <br>
+                        <p style="font-weight: bold;">APNA COLLEGE</p>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </section>
+
+    <!-- Footer -->
+
+    <section style="background-color: white; justify-content: space-between;">
+        <div class="container " style="width: 75%;">
+            <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-2" style="padding-top: 3rem;">
+                <div class="col">
+                    <img src="./assets/Logo.png" alt="" class="logo">
+                    <br><br>
+                    <p style="font-size: 1.2rem; font-weight: 400;">We are India's Most Loved Coding Community. Join us!
+                    </p>
+                </div>
+                <div class="col ali">
+                    <h5 style="font-weight: bold;">HELPFUL LINKS</h5>
+                    <br>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-angle-right"></i>
+                        &nbsp; &nbsp; Courses
+                    </li>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-angle-right"></i>
+                        &nbsp; &nbsp; Privacy policy
+                    </li>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-angle-right"></i>
+                        &nbsp; &nbsp;
+                        REFUND & CANCELLATION POLICY
+                    </li>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-angle-right"></i>
+                        &nbsp; &nbsp;
+                        TERMS & CONDITIONS
+                    </li>
+                    <br><br>
+                </div>
+                <div class="col ali">
+                    <h5 style="font-weight: bold;">GET IN TOUCH</h5>
+                    <br>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-envelope"></i>
+                        &nbsp; alpha@apnacollege.com
+                    </li>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-envelope"></i>
+                        &nbsp; delta@apnacollege.com
+                    </li>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-envelope"></i>
+                        &nbsp; sigma@apnacollege.com
+                    </li>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-user-gear"></i>
+                        &nbsp;Support Team : 10am-6pm
+                    </li>
+                    <br><br>
+                </div>
+                <div class="col ali">
+                    <h5 style="font-weight: bold;">CONNECT WITH US</h5>
+                    <br>
+                    <li style="list-style-type: none;">
+                        Facebook
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </li>
+                    <li style="list-style-type: none;">
+                        Twitter
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </li>
+                    <li style="list-style-type: none;">
+                        Youtube
+                        <i class="fa-brands fa-youtube"></i>
+                    </li>
+                    <li style="list-style-type: none;">
+                        Instagram
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li style="list-style-type: none;">
+                        Linkedin
+                        <i class="fa-brands fa-linkedin"></i>
+                    </li>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+        <center>Copyright © 2024</center>
+        <br><br><br>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <script>
-
-        var previousClickedItem = null;
-
-        function embedVideo(videoId) {
-
-            var videoContainer = document.getElementById('videoContainer');
-            var trimmedVideoId = videoId.trim().split("/").pop();
-            var embedUrl = 'https://drive.google.com/file/d/' + trimmedVideoId + '/preview';
-            videoContainer.innerHTML = '<iframe src="' + embedUrl + '" width="100%" height="540px" frameborder="0" allowfullscreen autoplay></iframe>';
-
-            if (previousClickedItem !== null) {
-                // previousClickedItem.style.color = "";
-                previousClickedItem.style.backgroundColor = "white";
-            }
-
-            var clickedItem = event.target;
-            clickedItem.style.backgroundColor = "gray";
-
-            previousClickedItem = clickedItem;
-        }
-    </script>
-
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').toggleClass('active');
-            });
+        var typed = new Typed('#element', {
+            strings: ['Alpha - DSA', 'Delta - Web Development', 'Sigma - DSA + Web Development'],
+            typeSpeed: 150,
+        });
+        var typed = new Typed('#social-media', {
+            strings: ['<span style="color: red;">#youtube</span>', '<span style="color: deeppink;">#instagram</span>', '<span style="color: blue;">#telegram</span>'],
+            typeSpeed: 150,
+            html: true
         });
     </script>
+
 </body>
 
 </html>
